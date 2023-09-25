@@ -21,8 +21,7 @@ button{
 
 button:hover { background-color: #95b7ff; box-shadow: 10px 10px 5px black; 
    }
-
-section {
+   section {
     display: inline-block;
     padding: 1em 2em;
     background: black;
@@ -33,13 +32,13 @@ section {
     outline-offset: 3px;
     background-color: black;
 }
-
+   
 img{    
     position: relative;
     height: 50px;
     display: flex;
     padding: 15px;
-   
+    
 }
 
 h4{
@@ -50,4 +49,3 @@ h4{
     background-color: purple;
     width: 60px;
 }
-
