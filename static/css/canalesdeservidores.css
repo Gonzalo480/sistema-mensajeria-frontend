@@ -32,22 +32,6 @@ section {
     outline: 2px solid black;
     outline-offset: 3px;
     background-color: black;
-}
 
-img{    
-    position: relative;
-    height: 50px;
-    display: flex;
-    padding: 15px;
-    
-}
-
-h4{
-    position: relative;
-    height: 50spx;
-    padding: 10px;
-    color: white;
-    background-color: purple;
-    width: 60px;
 }
 
