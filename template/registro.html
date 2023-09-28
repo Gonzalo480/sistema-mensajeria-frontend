@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="../static/css/registro.css" />
+  </head>
+  <header>
+    <div class="logo">
+      <img src="../static/imagenes/logo.png" alt="logo" />
+      <h1>Discord App</h1>
+    </div>
+  </header>
+  <body>
+    <div class="signupFrm">
+      <form action="/formulario" class="form" method="post">
+        <h1 class="title">Registro</h1>
+
+        <div class="inputContainer">
+          <input
+            type="text"
+            name="usuario"
+            class="input"
+            placeholder="a"
+            maxlength="25"
+            required=""
+          />
+          <label for="" class="label">Usuario</label>
+        </div>
+
+        <div class="inputContainer">
+          <input
+            type="text"
+            class="input"
+            name="nombre"
+            placeholder="a"
+            maxlength="25"
+            minlength="5"
+            required=""
+          />
+          <label for="" class="label">Nombre</label>
+        </div>
+
+        <div class="inputContainer">
+          <input
+            type="text"
+            class="input"
+            name="apellido"
+            placeholder="a"
+            maxlength="25"
+            required=""
+          />
+          <label for="" class="label">Apellido</label>
+        </div>
+
+        <div class="inputContainer">
+          <input
+            type="email"
+            name="email"
+            class="input"
+            placeholder="a"
+            required=""
+          />
+          <label for="" class="label">Email</label>
+        </div>
+
+        <div class="inputContainer">
+          <input
+            type="password"
+            name="contrasena"
+            class="input"
+            placeholder="a"
+            required=""
+            minlength="5"
+            maxlength="25"
+          />
+          <label for="" class="label">Password</label>
+        </div>
+
+        <input type="submit" class="submitBtn" value="Sign up" />
+        <div id="message"></div>
+        <br />
+        <p id="p1">
+          <a href="http://127.0.0.1:5000/logren">¿Ya tienes una cuenta?</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
