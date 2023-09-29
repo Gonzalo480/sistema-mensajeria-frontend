@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+    align-content: center;
+}
+
+button{
+    flex-direction: column;
+    display: flex;
+    height: 135px;
+    position: center;
+    padding: 1em 2em;
+    background: white;
+    color: black;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid black;
+    outline-offset: 3px;
+    justify-content: center;
+    
+}
+
+button:hover { background-color: #95b7ff; box-shadow: 10px 10px 5px black; 
+   }
+
+section {
+    display: inline-block;
+    padding: 1em 2em;
+    background: black;
+    color: white;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid black;
+    outline-offset: 3px;
+    background-color: black;
+}
+
+img{    
+    position: relative;
+    height: 50px;
+    display: flex;
+    padding: 15px;
+    
+}
+
+h4{
+    position: relative;
+    height: 50spx;
+    padding: 10px;
+    color: white;
+    background-color: purple;
+    width: 60px;
+}
+

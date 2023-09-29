@@ -1,0 +1,108 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo general para todo el fondo de pag */
+body {
+    font-family: Arial, sans-serif;
+    /*background: url(imag/background.jpg)no-repeat; */
+    background:url('../imagenes/background.jpg') no-repeat;
+    
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* Estilo para el encabezado */
+header {
+    display: flex;
+    flex-wrap:wrap;
+    background-color:#0cb6f4 ;
+    color: #40423D;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+/* Estilo para el logo despues de modificar*/
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Ajustar el tamaño de la imagen */
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+
+/* Estilo para presentacion part gral */
+.presentacion {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.presentacion h2 {
+    font-size: 60px;
+    color: #FEF1DA;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    font-size: 30px;
+    color: #FEF1DA;
+    margin-bottom: 30px;
+}
+
+.presentacion a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2c4884;
+    color: #FEF1DA;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #40423D;
+    color:#fff ;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.button2 {
+    
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-family:monospace;
+    font-size:26px;
+    font-weight:bold;
+    height:auto;
+    width:260px;
+    padding:25px 25px 25px 25px;
+    color:#ffffff;
+    background-color:#04abfc;
+    border:3px solid #3f413b;
+    border-radius:50px 50px 50px 50px;
+    transition:all 0.3s;
+  }
+  
+  .button2:hover{
+  color:#3f413b;
+  background-color:#04abfc;
+  }

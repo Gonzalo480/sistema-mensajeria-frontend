@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingreso</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/css/styleslog.css"
+      media="screen"
+    />
+  </head>
+  <header>
+    <div class="logo">
+      <img src="../static/imagenes/logo.png" alt="logo" />
+      <h1>Discord App</h1>
+    </div>
+  </header>
+  <body>
+    <div class="form-registro">
+      <div class="container">
+        <section id="content">
+          <h1>Ingreso</h1>
+          <div>
+            <form id="loginForm">
+              <label for="username">Username:</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Usuario"
+                required
+              />
+              <br />
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Contraseña"
+                required=""
+              />
+              <br />
+              <div class="enter">
+                <input type="submit" value="Entrar" />
+              </div>
+            </form>
+
+            <script src="../static/js/login.js"></script>
+          </div>
+        </section>
+      </div>
+      <div id="contenedorPadre">
+        <div id="contenedorHijo">
+          <div id="message"></div>
+        </div>
+      </div>
+      <br />
+      <p id="p1">
+        <a href="http://127.0.0.1:5000/formulario">¿No tienes una cuenta?</a>
+      </p>
+    </div>
+
+  </body>
+</html>
