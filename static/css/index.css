@@ -82,3 +82,26 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.button2 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-family:monospace;
+    font-size:26px;
+    font-weight:bold;
+    height:auto;
+    width:260px;
+    padding:25px 25px 25px 25px;
+    color:#ffffff;
+    background-color:#04abfc;
+    border:3px solid #3f413b;
+    border-radius:50px 50px 50px 50px;
+    transition:all 0.3s;
+  }
+  
+  .button2:hover{
+  color:#3f413b;
+  background-color:#04abfc;
+  }
