@@ -28,7 +28,7 @@ function login() {
             setCookie(valor)
             // Redirect to profile page if login is successful
             return response.json().then(data => {
-                window.location.href = "http://127.0.0.1:5000/mainserver";
+                window.location.href = "../template/main_page.html";
             });
         } else {
             return response.json().then(data => {

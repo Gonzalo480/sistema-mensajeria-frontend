@@ -17,8 +17,7 @@ body {
 
 /* Estilo para el encabezado */
 header {
-    display: flex;
-    flex-wrap:wrap;
+        
     background-color:#0cb6f4 ;
     color: #40423D;
     padding: 10px;
@@ -85,7 +84,7 @@ footer {
 }
 
 .button2 {
-    
+    display:flex;
     justify-content:center;
     align-items:center;
     text-decoration:none;
