@@ -1,5 +1,10 @@
 Para una correcta ejecucion
 
-1 Las carpetas que continen el backend y el frontend (nombre - nombre) deben estar en un mimo directorio raiz paralelas, para que funcienen las rutas relativas que las unen
+1 Las carpetas que continen el backend y el frontend (nombre - nombre) deben estar en un mimo directorio raiz paralelas, para que funcienen las rutas relativas que las unen. 
 
-2 dependiendo del navegador. No es posible habilitar el uso de cookies locales en Chrome/Chromium y Edge, por lo cual para usar la funcion de sesiones con cookies es necesario utilizar Firefox e IE (samesite cookies https)
+
+2 Renombrar la carpeta contenedore del backend como "backend"
+  Renombrar la carpeta contenedore del frontend como "frontend"
+
+
+3 Navegador. No es posible habilitar el uso de cookies locales en Chrome/Chromium y Edge, por lo cual para usar la funcion de sesiones con cookies es necesario utilizar Firefox e IE (samesite cookies https)
